@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# data 폴더: momentum_latest.json은 git에 포함 (월간 자동 push)
+# portfolio.json은 개인 보유 정보라 제외
+data/portfolio.json
+scripts/screener.log
