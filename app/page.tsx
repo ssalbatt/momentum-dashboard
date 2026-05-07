@@ -3,8 +3,6 @@ import { getMomentumData, fmt, fmtDate } from "@/lib/data";
 import StatCard from "@/components/StatCard";
 import ScoreBar from "@/components/ScoreBar";
 
-export const revalidate = 300;
-
 export default function HomePage() {
   const data = getMomentumData();
 

@@ -2,8 +2,6 @@ import { getMomentumData, fmt, fmtCap, fmtDate } from "@/lib/data";
 import { MomentumSignal } from "@/lib/types";
 import ScoreBar from "@/components/ScoreBar";
 
-export const revalidate = 300;
-
 function SectorBar({ name, count, max }: { name: string; count: number; max: number }) {
   return (
     <div className="flex items-center gap-3">

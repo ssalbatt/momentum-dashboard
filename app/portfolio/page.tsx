@@ -1,8 +1,6 @@
 import { getMomentumData, getPortfolio, fmt, fmtDate } from "@/lib/data";
 import { Holding } from "@/lib/types";
 
-export const revalidate = 300;
-
 function empty() {
   return (
     <div
